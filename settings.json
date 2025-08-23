@@ -1,0 +1,44 @@
+{
+    "workbench.colorTheme": "Tokyo Storm Gogh",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 20,
+    "workbench.editor.showTabs": "none",
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.fontSize": 20,
+    "editor.fontVariations": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font Mono",
+    "terminal.integrated.fontWeight": "normal",
+    "redhat.telemetry.enabled": false,
+    "git.autoRepositoryDetection": false,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.customTitleBarVisibility": "windowed",
+    "dart.flutterHotReloadOnSave": "allIfDirty",
+    "git.confirmSync": false,
+    "macros.list": {
+        "commentDown": [
+            "editor.action.addCommentLine",
+            "cursorDown"
+        ]
+    },
+    "pgsql.serverGroups": [
+        {
+            "name": "Servers",
+            "id": "B11B53FC-C6B5-4536-8C7B-3B0212B2AE48",
+            "isDefault": true
+        },
+        {
+            "id": "CBA817FD-BFD4-4688-9B36-1B9A4FA9FC45",
+            "name": "DP - BCA",
+            "description": ""
+        },
+        {
+            "id": "734A8995-7A37-4941-806F-EB6DFDB35667",
+            "name": "ONEST",
+            "description": ""
+        }
+    ]
+}
