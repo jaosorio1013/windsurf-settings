@@ -322,5 +322,9 @@
         "key": "ctrl+shift+a",
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.quickOpen"
     }
 ]
