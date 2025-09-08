@@ -1,0 +1,235 @@
+{
+    "macros.list": {
+        "commentDown": [
+            "editor.action.addCommentLine",
+            "cursorDown"
+        ]
+    },
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Catppuccin Noctis Frappé",
+  "editor.experimental.asyncTokenization": true,
+  "editor.fontLigatures": false,
+  "files.defaultLanguage": "markdown",
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+"files.trimTrailingWhitespace": true,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": true,
+  "editor.matchBrackets": "near",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": true,
+  "editor.fontFamily": "MonoLisa DankMono Nerd font Mono",
+  "terminal.integrated.fontFamily": "MonoLisa DankMono Nerd font Mono",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 50,
+  "editor.suggestFontSize": 18,
+  "editor.suggestLineHeight": 30,
+  "terminal.integrated.fontSize": 24,
+  "terminal.integrated.lineHeight": 1.5,
+  "symbols.hidesExplorerArrows": false,
+  "editor.guides.indentation": false,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/vendor/{[^l],?[^ai]}*": true,
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[blade]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "php.validate.enable": false,
+  "php.suggest.basic": false,
+  "intelephense.telemetry.enabled": false,
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.showOutput": false,
+  "php-cs-fixer.autoFixByBracket": false,
+  "php-cs-fixer.rules": "@PSR2",
+  "namespaceResolver.exclude": "**/node_modules/**",
+  "namespaceResolver.showMessageOnStatusBar": false,
+  "namespaceResolver.autoSort": true,
+  "namespaceResolver.sortOnSave": true,
+  "namespaceResolver.sortAlphabetically": true,
+  "namespaceResolver.sortNatural": false,
+  "namespaceResolver.leadingSeparator": true,
+  "namespaceResolver.highlightOnSave": false,
+  "namespaceResolver.highlightOnOpen": false,
+  "git.autofetch": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "conventionalCommits.showNewVersionNotes": false,
+  "focus.opacity": "0.8",
+  "focus.highlightRange": "block",
+  "jest.autoRun": "off",
+  "githubPullRequests.pushBranch": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "Typescript": "typescriptreact"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "laravelGoto.debug": true,
+  "laravelGoto.exclusion": "**/{node_modules,vendor}/",
+  "laravelGoto.staticFileExtensions": [
+    "js",
+    "ts",
+    "jsx",
+    "vue",
+    "css",
+    "scss",
+    "sass",
+    "less",
+    "styl",
+    "htm",
+    "html",
+    "xhtml",
+    "xml",
+    "log"
+  ],
+  "editor.suggestSelection": "first",
+  "editor.dragAndDrop": false,
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 4,
+  "editor.wordWrap": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.excludeGitIgnore": false,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "search.useGlobalIgnoreFiles": true,
+  "explorer.openEditors.visible": 1,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "explorer.compactFolders": false,
+  "editor.renderWhitespace": "selection",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.lightbulb.enabled": "off",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.tree.indent": 20,
+  "workbench.list.smoothScrolling": true,
+  "breadcrumbs.symbolPath": "off",
+  "workbench.startupEditor": "none",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": [
+      "source.addMissingImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "customizeUI.stylesheet": {
+    ".editor .title": "background: transparent !important;",
+    ".editor .title .label-container": "visibility: hidden;",
+    ".editor .title .actions-container .action-item a": "visibility: hidden;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+    ".editor .title .actions-container": "flex-direction: row-reverse;",
+    ".editor .scrollbar .slider": "visibility: hidden",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env*"
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "editor.linkedEditing": true,
+  "window.commandCenter": false,
+  "autoHide.hideOnOpen": true,
+  "editor.inlayHints.padding": true,
+  "editor.inlayHints.fontSize": 12,
+  "window.newWindowProfile": "Default",
+  "playwright.reuseBrowser": false,
+  "terminal.external.windowsExec": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\git-bash.exe",
+  "security.workspace.trust.untrustedFiles": "open",
+  "dev.containers.dockerComposePath": "podman-compose",
+  "dev.containers.dockerPath": "podman",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "cmake.options.statusBarVisibility": "visible",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "zsh"
+    },
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "explorer.confirmPasteNative": false,
+  "git.statusLimit": 0,
+  "Odoo.disablePythonLanguageServerPopup": true,
+"workbench.layoutControl.enabled": false,
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"workbench.editor.showTabs": "none",
+"window.menuBarVisibility": "compact",
+"workbench.iconTheme": "material-icon-theme",
+"docker.extension.enableComposeLanguageServer": false
+}
